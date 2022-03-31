@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>instagram</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div>
+        <img class="logo" src="assets/instagram.png" alt="instagram-logo" />
+      </div>
+    </header>
+    <main>
+      <section>
+        <article>
+          <header>
+            <div class="profile-container">
+              <img class="profile-image bg" src="assets/puppy4.jpeg" alt="profile-picture" />
+              <p class="weight">puppy-lover</p>
+            </div>
+
+          </header>
+          <img src="assets/puppy2.jpeg" alt="instagram_main_image" class="main-image" />
+          <div class="container">
+            <div class="interaction">
+              <button class="unlike hidden"></button>
+              <button class="like"></button>
+              <button class="comment-btn"></button>
+            </div>
+            <div class="liked-people">
+              <img class="profile-image" src="assets/puppy3.jpeg" alt="profile-picture" />
+              <span>
+                <p class="weight">kyung yup Lee</p> 님 <p class="weight">외 13명</p>이 좋아합니다.
+              </span>
+            </div>
+            <div class="content">
+              <p class="weight">mister-puppy</p>
+              <a class="hash-tag" href="https://www.google.com/search?q=%EB%A9%8D%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8&sxsrf=APq-WBvjjSeZ_10ybY_UGIV8HDhRtcnLGA%3A1648727863934&source=hp&ei=N5dFYuqrNrmh1e8P_ce8eA&iflsig=AHkkrS4AAAAAYkWlRzttNN-oA3A-x39mWr70e7x99Bbf&ved=0ahUKEwiqo6L1pfD2AhW5UPUHHf0jDw8Q4dUDCAk&uact=5&oq=%EB%A9%8D%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8&gs_lcp=Cgdnd3Mtd2l6EAMyCwguEIAEEMcBEK8BMgUIABCABDIFCAAQgAQyBQgAEIAEMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB4yBggAEAUQHjoHCCMQ6gIQJzoICC4QgAQQsQM6BAgAEAM6CwgAEIAEELEDEIMBOg4ILhCABBCxAxCDARDUAjoFCC4QgAQ6BAgAEB5QzAdYrBBgrBFoBHAAeAOAAdQBiAHuDZIBBjAuMTAuMZgBAKABAbABCg&sclient=gws-wiz">#멍스타그램</a>
+              <br>
+              <p>아죠씨 덩치가 왜 이렇게 커요...?</p>
+            </div>
+            <div class="comments">
+              <div class="comment">
+                <img class="profile-image" src="assets/puppy4.jpeg" alt="profile-picture" />
+                <p class="weight">miss-puppy</p>
+                <p>아이고 이쁘다~!</p>
+              </div>
+              <div class="comment">
+                <img class="profile-image" src="assets/puppy5.jpeg" alt="profile-picture" />
+                <p class="weight">hello-puppy</p>
+                <p>아이고 잘 뛰는구나~!</p>
+              </div>
+            </div>
+            <div>
+              <p class="time">10시간 전</p>
+            </div>
+          </div>
+          <div class="write-comment">
+            <input type="text" placeholder="댓글 달기..." />
+            <button>게시</button>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+  <script src="js/like.js"></script>
+  <script src="js/comment.js"></script>
+  <script src="js/clickComment.js"></script>
+
+</html>
