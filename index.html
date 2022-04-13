@@ -6,13 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="headerStyle.css" />
+    <!-- <link rel="stylesheet" href="mainStyle.css" /> -->
     <title>instagram</title>
   </head>
 
   <body>
     <header class="header">
       <div>
-        <img class="logo" src="assets/instagram.png" alt="instagram-logo" />
+        <h1 class="hidden">instagram</h1>
+        <img class="logo" src="" alt="" />
       </div>
     </header>
     <main>
@@ -20,20 +23,19 @@
         <article>
           <header>
             <div class="profile-container">
-              <img class="profile-image bg" src="assets/puppy4.jpeg" alt="profile-picture" />
+              <img class="profile-image bg" src="" alt="profile-picture" />
               <p class="weight">puppy-lover</p>
             </div>
-
           </header>
-          <img src="assets/puppy2.jpeg" alt="instagram_main_image" class="main-image" />
+          <img src="" alt="instagram_main_image" class="main-image" />
           <div class="container">
             <div class="interaction">
-              <button class="unlike hidden"></button>
+              <button class="unlike"></button>
               <button class="like"></button>
               <button class="comment-btn"></button>
             </div>
             <div class="liked-people">
-              <img class="profile-image" src="assets/puppy3.jpeg" alt="profile-picture" />
+              <img class="profile-image" src="" alt="profile-picture" />
               <span>
                 <p class="weight">kyung yup Lee</p> 님 <p class="weight">외 13명</p>이 좋아합니다.
               </span>
@@ -46,12 +48,12 @@
             </div>
             <div class="comments">
               <div class="comment">
-                <img class="profile-image" src="assets/puppy4.jpeg" alt="profile-picture" />
+                <img class="profile-image" src="" alt="profile-picture" />
                 <p class="weight">miss-puppy</p>
                 <p>아이고 이쁘다~!</p>
               </div>
               <div class="comment">
-                <img class="profile-image" src="assets/puppy5.jpeg" alt="profile-picture" />
+                <img class="profile-image" src="" alt="profile-picture" />
                 <p class="weight">hello-puppy</p>
                 <p>아이고 잘 뛰는구나~!</p>
               </div>
@@ -68,8 +70,9 @@
       </section>
     </main>
   </body>
+  <script src="js/isLiked.js"></script>
   <script src="js/like.js"></script>
-  <script src="js/comment.js"></script>
   <script src="js/clickComment.js"></script>
+  <script src="js/comment.js"></script>
 
 </html>

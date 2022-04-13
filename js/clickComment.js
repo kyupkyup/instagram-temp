@@ -1,6 +1,6 @@
-const $commentBtn = document.querySelector('.comment-btn');
+const $commentButton = document.querySelector('.comment-btn');
 const $commentInput = document.querySelector('.write-comment input')
 
-$commentBtn.addEventListener('click', e => {
+$commentButton.addEventListener('click', e => {
   $commentInput.focus()
 })
